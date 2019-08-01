@@ -1,0 +1,4 @@
+resource:
+  imageServer: http://dev.images.hgz.com
+  emailServer: http://dev.email.hgz.com
+

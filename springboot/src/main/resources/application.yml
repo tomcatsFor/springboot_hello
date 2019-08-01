@@ -1,0 +1,20 @@
+
+server:
+  port: 8090
+  servlet:
+    context-path: /
+spring:
+  activemq:
+    packages:
+      trusted:
+  profiles:
+    active: test
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
+  mvc:
+    date-format: yyyy-MM-dd
+
+#resource:
+#  imageServer: http://images.hgz.com
+#  emailServer: http://email.hgz.com
